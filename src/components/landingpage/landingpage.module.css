@@ -1,0 +1,30 @@
+.landingPage{
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageContent{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageContent h1{
+    font-size: 3rem;
+    font-family: monospace;
+    margin-bottom: 40px;
+}
+
+.pageContent a{
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid var(--orange);
+    border-radius: 10px;
+    padding: 3px 5px;
+}

@@ -1,0 +1,266 @@
+.allPostsPage{
+    min-height: calc(100vh - 120px);
+    width: 100%;
+    padding: 15px;
+    position: relative;
+}
+
+.allPostsPage h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: monospace;
+}
+
+.allPosts{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.postBox{
+    width: 300px;
+    height: 600px;
+    border-radius: 8px;
+    border: 5px solid var(--orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.postBox .postBoxImg{
+    height: 50%;
+    width: auto;
+    margin-bottom: 8px;
+}
+
+.postBoxImg img{
+    width: auto;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.postBoxInfo {
+    margin-bottom: 10px;
+    height: auto;
+    padding: 8px;
+    width: 250px;
+    height: 160px;
+}
+
+.postBoxInfo span{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #d66f00;
+}
+
+.postBoxInfo h3{
+    font-size: 1.1rem;
+}
+
+.postBoxInfo p{
+    margin-top: 5px;
+}
+
+.postBoxData {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.postBoxData span{
+    font-size: 1.2rem;
+}
+
+.postBox button{
+    margin-top: 10px;
+    background-color: var(--orange);
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.createUserLink{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+}
+
+.createUserLink:hover{
+    background-color: #fafafa;
+}
+
+.createPostPage{
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.createPostPage h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+
+.createPost {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.createPost form{
+    width: 600px;
+    padding: 20px; 
+    border: 3px solid var(--orange);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 460px; 
+    height: auto; 
+}
+
+
+.inputGroup{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputGroup label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    height: 55px;
+    width: 90px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    text-align: center;
+    font-size: .85rem;
+}
+
+.inputGroup input {
+    padding: 10px;
+    height: 55px;
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: .9rem;
+}
+
+.inputGroup select {
+    padding: 10px;
+    height: 55px;
+    /* width: calc(100% - 150px); */
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    font-size: .9rem;
+}
+
+.inputGroup textarea{
+    padding: 10px;
+    min-height: 150px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid var(--orange);
+    outline: none;
+    border-radius: 8px;
+    font-size: .9rem;
+}
+
+.btn{
+    padding: 8px 15px;
+    background-color: var(--orange);
+    border-radius: 8px;
+}
+.imgInput[type='file']{
+    display: none;
+}
+
+.imgLabel{
+    width: 320px !important;
+    border-radius: 8px !important;
+}
+
+.imageInputGroup {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+}
+
+.likeAndComments{
+    width: 600px;
+    padding: 5px;
+    border: 3px solid var(--orange);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberOfData {
+    display: flex;
+}
+
+.numberOfData span{
+    margin: 5px 20px;
+    font-size: 1.5rem;
+}
+
+.postsComments{
+    margin-top: 30px;
+}
+
+.commentBox{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    border: 2px solid var(--white);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.commentBox span{
+    text-align: center;
+    border-bottom: 2px solid var(--white);
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.commentBox p{
+    text-align: center;
+}
